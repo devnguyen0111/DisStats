@@ -1,0 +1,9 @@
+name: DisStats
+version: '${project.version}'
+main: org.disstats.DisStats
+api-version: '1.20'
+load: STARTUP
+depend: [DiscordSRV, Vault]
+authors: [DevNguyen]
+description: Send your stats to Discord
+website: devnguyen.xyz
