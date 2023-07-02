@@ -7,3 +7,14 @@ depend: [DiscordSRV, Vault]
 authors: [DevNguyen]
 description: Send your stats to Discord
 website: devnguyen.xyz
+
+commands:
+  statspl:
+    description: View player statistics
+    usage: /statspl
+    permission: statsplugin.stats
+
+permissions:
+  statsplugin.stats:
+    description: Allows access to view player statistics
+    default: true
